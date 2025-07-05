@@ -1,6 +1,6 @@
 function aplicarFiltros(){
     const marca = document.getElementById("marca").value;
-    const sistema = document.getElementById("sistema").value;
+    const sistema = document.getElementById("sistema-operativo").value;
     const anio = document.getElementById("anio-lanzamiento").value;
     const almacenamiento = document.getElementById("capacidad-almacenamiento").value;
     const color = document.getElementById("color").value;
@@ -29,7 +29,7 @@ function renderizarProductos(lista){
         contenedor.innerHTML = "<p>No se encontraron dispositivos.</p>";
         return;
     };
-
+    
     lista.forEach(oProd => {
         contenedor.innerHTML += `
         <div class="col-md-3 mb-4">
@@ -42,7 +42,7 @@ function renderizarProductos(lista){
                     <p class="card-text">${oProd.anio}</p>
                     <p class="card-text">${oProd.almacenamiento}</p>
                     <p class="card-text">${oProd.color}</p>
-                    <p class="card-text">$${oProd.precio.toLocalString()}</p>
+                    <p class="card-text">$${oProd.precio.toLocaleString()}</p>
                 </div>
             </div>
         </div>`
