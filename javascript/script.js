@@ -1,5 +1,5 @@
 document.getElementById("filtroForm").addEventListener("submit", (evt)=>{
-    evt.preventDefault();
+    evt.preventDefault(); //evitamos que se "actualice oh cargue de nuevo" la página 
     aplicarFiltros();
 });
 document.getElementById("marca").addEventListener("change", aplicarFiltros);
