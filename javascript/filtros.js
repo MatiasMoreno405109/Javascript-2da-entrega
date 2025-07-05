@@ -37,12 +37,12 @@ function renderizarProductos(lista){
                 <img src="${oProd.imagen}" class="card-img-top" alt="${oProd.modelo}">
                 <div class="card-body">
                     <h5 class="card-title">${oProd.modelo}</h5>
-                    <p class="card-text">${oProd.marca}</p>
-                    <p class="card-text">${oProd.sistema}</p>
-                    <p class="card-text">${oProd.anio}</p>
-                    <p class="card-text">${oProd.almacenamiento}</p>
-                    <p class="card-text">${oProd.color}</p>
-                    <p class="card-text">$${oProd.precio.toLocaleString()}</p>
+                    <p class="card-text">Marca: ${oProd.marca}</p>
+                    <p class="card-text">Sistema: ${oProd.sistema}</p>
+                    <p class="card-text">Año: ${oProd.anio}</p>
+                    <p class="card-text">Almacenamiento: ${oProd.almacenamiento}</p>
+                    <p class="card-text">Color: ${oProd.color}</p>
+                    <p class="card-text">Precio: $${oProd.precio.toLocaleString()}</p>
                 </div>
             </div>
         </div>`
