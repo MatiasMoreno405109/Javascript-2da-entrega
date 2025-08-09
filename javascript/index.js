@@ -64,7 +64,7 @@ function actualizarContador() {
     document.getElementById("contador-carrito").textContent = totalCantidad;
 }
 
-//actualizarContador();
+actualizarContador();
 document.getElementById("marca").addEventListener("change", aplicarFiltros);
 document.getElementById("sistema-operativo").addEventListener("change", aplicarFiltros);
 document.getElementById("anio-lanzamiento").addEventListener("change", aplicarFiltros);
