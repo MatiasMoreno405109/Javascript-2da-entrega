@@ -1,5 +1,6 @@
-# Hola👋🏽 soy Matías Gastón Moreno
-Mi proyecto como segunda pre entrega se trata de un buscador por categorias en esté caso de dispositivos celulares.
+# 📱 Buscador por Categorías de Celulares
+## Hola👋🏽 soy Matías Gastón Moreno
+Mi proyecto como entrega final se trata de un buscador por categorias en esté caso de dispositivos celulares.
 Cuenta con categorias de filtro de tipo: Marca, Sistema operativo, Año de lanzamiento, Capacidad de almacenamiento, Precio mínimo, Precio máximo y Color.
 ## Para esté proyecto útilice en JavaScript:
 ### variables constantes.
