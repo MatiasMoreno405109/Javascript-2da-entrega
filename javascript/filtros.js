@@ -18,33 +18,7 @@ function aplicarFiltros(){
             (precioMaximo === "" || oProd.precio <= parseInt(precioMaximo))
         )
     });
-    renderizarProductos(filtrados);
+    renderProductos(filtrados);
 }
 
-function renderizarProductos(lista){
-    const contenedor = document.getElementById("contenedor-cards");
-    contenedor.innerHTML = ""; // limpiamos resultados anteriores
 
-    if(lista.length === 0){
-        contenedor.innerHTML = "<p>No se encontraron dispositivos.</p>";
-        return;
-    };
-    
-    lista.forEach(oProd => {
-        contenedor.innerHTML += `
-        <div class="col-md-3 mb-4">
-            <div class="card h-100">
-                <img src="${oProd.imagen}" class="card-img-top" alt="${oProd.modelo}">
-                <div class="card-body">
-                    <h5 class="card-title">${oProd.modelo}</h5>
-                    <p class="card-text">Marca: ${oProd.marca}</p>
-                    <p class="card-text">Sistema: ${oProd.sistema}</p>
-                    <p class="card-text">Año: ${oProd.anio}</p>
-                    <p class="card-text">Almacenamiento: ${oProd.almacenamiento}</p>
-                    <p class="card-text">Color: ${oProd.color}</p>
-                    <p class="card-text">Precio: $${oProd.precio.toLocaleString()}</p>
-                </div>
-            </div>
-        </div>`
-    });
-}

@@ -1,0 +1,233 @@
+[
+    {
+        "id" : 1,
+        "modelo": "iPhone 11",
+        "marca": "iPhone",
+        "sistema": "iOS",
+        "anio": "2019",
+        "almacenamiento": "128GB",
+        "color": "negro",
+        "precio": 850000,
+        "imagen": "../img/iPhonen-11-negro.jpg"
+    },
+    {
+        "id": 2,
+        "modelo": "iPhone 11",
+        "marca": "iPhone",
+        "sistema": "iOS",
+        "anio": "2019",
+        "almacenamiento": "128GB",
+        "color": "verde",
+        "precio": 850000,
+        "imagen": "../img/iPhonen-11-verde.jpg"
+    },
+    {
+        "id" : 3,
+        "modelo": "iPhone 11",
+        "marca": "iPhone",
+        "sistema": "iOS",
+        "anio": "2019",
+        "almacenamiento": "128GB",
+        "color": "amarillo",
+        "precio": 850000,
+        "imagen": "../img/iPhonen-11-amarillo.jpg"
+    },
+    {
+        "id" : 4,
+        "modelo": "iPhone 11",
+        "marca": "iPhone",
+        "sistema": "iOS",
+        "anio": "2019",
+        "almacenamiento": "128GB",
+        "color": "morado",
+        "precio": 850000,
+        "imagen": "../img/iPhonen-11-morado.jpg"
+    },
+    {
+        "id" : 5,
+        "modelo": "iPhone SE (2da gen)",
+        "marca": "iPhone",
+        "sistema": "iOS",
+        "anio": "2020",
+        "almacenamiento": "64GB",
+        "color": "blanco",
+        "precio": 450000,
+        "imagen": "../img/iPhone-SE-(2da gen)-blanco.jpg"
+    },
+    {
+        "id" : 6,
+        "modelo": "iPhone SE (2da gen)",
+        "marca": "iPhone",
+        "sistema": "iOS",
+        "anio": "2020",
+        "almacenamiento": "64GB",
+        "color": "negro",
+        "precio": 450000,
+        "imagen": "../img/iPhone-SE-(2da gen)-negro.jpg"
+    },
+    {
+        "id" : 7,
+        "modelo": "iPhone SE (2da gen)",
+        "marca": "iPhone",
+        "sistema": "iOS",
+        "anio": "2020",
+        "almacenamiento": "64GB",
+        "color": "rojo",
+        "precio": 450000,
+        "imagen": "../img/iPhone-SE-(2da gen)-rojo.jpg"
+    },
+    {
+        "id" : 8,
+        "modelo": "Samsung Galaxy A54 5G",
+        "marca": "Samsung",
+        "sistema": "Android",
+        "anio": "2023",
+        "almacenamiento": "128GB",
+        "color": "blanco",
+        "precio": 550000,
+        "imagen": "../img/Samsung-a54-blanco.jpg"
+    },
+    {
+        "id" : 9,
+        "modelo": "Samsung Galaxy A54 5G",
+        "marca": "Samsung",
+        "sistema": "Android",
+        "anio": "2023",
+        "almacenamiento": "128GB",
+        "color": "morado",
+        "precio": 550000,
+        "imagen": "../img/Samsung-a54-morado.jpg"
+    },
+    {
+        "10" : 10,
+        "modelo": "Samsung Galaxy S10e",
+        "marca": "Samsung",
+        "sistema": "Android",
+        "anio": "2019",
+        "almacenamiento": "128GB",
+        "color": "rosa",
+        "precio": 420000,
+        "imagen": "../img/Samsung-S10e-rosa.jpg"
+    },
+    {
+        "id": 11,
+        "modelo": "Samsung Galaxy S10e",
+        "marca": "Samsung",
+        "sistema": "Android",
+        "anio": "2019",
+        "almacenamiento": "128GB",
+        "color": "amarillo",
+        "precio": 420000,
+        "imagen": "../img/Samsung-S10e-amarillo.jpg"
+    },
+    {
+        "id" : 12,
+        "modelo": "Samsung Galaxy S10e",
+        "marca": "Samsung",
+        "sistema": "Android",
+        "anio": "2019",
+        "almacenamiento": "128GB",
+        "color": "rojo",
+        "precio": 420000,
+        "imagen": "../img/Samsung-S10e-rojo.jpg"
+    },
+    {
+        "id": 13,
+        "modelo": "Xiaomi Redmi Note 13",
+        "marca": "Xiaomi",
+        "sistema": "Android (HyperOS)",
+        "anio": "2024",
+        "almacenamiento": "256GB",
+        "color": "negro",
+        "precio": 480000,
+        "imagen": "../img/Xiaomi-Redmi-Note-13-Negro.jpg"
+    },
+    {
+        "id": 14,
+        "modelo": "Xiaomi Redmi Note 13",
+        "marca": "Xiaomi",
+        "sistema": "Android (HyperOS)",
+        "anio": "2024",
+        "almacenamiento": "256GB",
+        "color": "azul",
+        "precio": 480000,
+        "imagen": "../img/Xiaomi-Redmi-Note-13-Azul.jpg"
+    },
+    {
+        "id" : 15,
+        "modelo": "Xiaomi Redmi Note 13",
+        "marca": "Xiaomi",
+        "sistema": "Android (HyperOS)",
+        "anio": "2024",
+        "almacenamiento": "256GB",
+        "color": "verde",
+        "precio": 480000,
+        "imagen": "../img/Xiaomi-Redmi-Note-13-Verde.jpg"
+    },
+    {
+        "id" : 16,
+        "modelo": "Xiaomi Mi A3",
+        "marca": "Xiaomi",
+        "sistema": "Android",
+        "anio": "2019",
+        "almacenamiento": "64GB",
+        "color": "blanco",
+        "precio": 180000,
+        "imagen": "../img/Xiaomi-Mi-A3-blanco.jpg"
+    },
+    {
+        "id" : 17,
+        "modelo": "Xiaomi Mi A3",
+        "marca": "Xiaomi",
+        "sistema": "Android",
+        "anio": "2019",
+        "almacenamiento": "64GB",
+        "color": "azul",
+        "precio": 180000,
+        "imagen": "../img/Xiaomi-Mi-A3-azul.jpg"
+    },
+    {
+        "id": 18,
+        "modelo": "Xiaomi Mi A3",
+        "marca": "Xiaomi",
+        "sistema": "Android",
+        "anio": "2019",
+        "almacenamiento": "64GB",
+        "color": "negro",
+        "precio": 180000,
+        "imagen": "../img/Xiaomi-Mi-A3-negro.jpg"
+    },
+    {
+        "id": 19,
+        "modelo": "Motorola Moto G73 5G",
+        "marca": "Motorola",
+        "sistema": "Android",
+        "anio": "2023",
+        "almacenamiento": "128GB",
+        "color": "rosado",
+        "precio": 320000,
+        "imagen": "../img/Motorola-Moto-G73-rosado.jpg"
+    },
+    {
+        "id": 20,
+        "modelo": "Motorola Moto G73 5G",
+        "marca": "Motorola",
+        "sistema": "Android",
+        "anio": "2023",
+        "almacenamiento": "128GB",
+        "color": "azul",
+        "precio": 320000,
+        "imagen": "../img/Motorola-Moto-G73-azul.jpg"
+    },
+    {
+        "id": 21,
+        "modelo": "Motorola Moto E7 Plus",
+        "marca": "Motorola",
+        "sistema": "Android",
+        "anio": "2020",
+        "almacenamiento": "64GB",
+        "color": "azul",
+        "precio": 140000,
+        "imagen": "../img/Motorola-Moto-E7-Plus-azul.jpg"
+    }
+]

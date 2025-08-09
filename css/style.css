@@ -1,16 +1,30 @@
-.title{
+.title {
     text-align: center;
     font-size: 3rem;
     font-family: sans-serif;
 }
-body{
+
+body {
     background-color: #f8f9fa;
 }
-.card{
+
+.card {
     background-color: #ffffff;
     border: none;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
-.card-title{
+
+.card-title {
     font-weight: bold;
+}
+
+.icono {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 10000;
 }
