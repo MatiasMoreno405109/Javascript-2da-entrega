@@ -13,18 +13,18 @@ function renderizarCarrito() {
         return;
     }
 
-    carrito.forEach((p, index) => {
-        const subtotal = p.precio * p.cantidad;
+    carrito.forEach((oProd, index) => {
+        const subtotal = oProd.precio * oProd.cantidad;
         total += subtotal;
 
         contenedor.innerHTML += `
             <div class="col-md-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="${p.imagen}" class="card-img-top" alt="${p.modelo}">
+                    <img src="${oProd.imagen}" class="card-img-top" alt="${oProd.modelo}">
                     <div class="card-body">
-                        <h5 class="card-title">${p.modelo}</h5>
-                        <p class="card-text">Precio: $${p.precio.toLocaleString()}</p>
-                        <p class="card-text">Cantidad: ${p.cantidad}</p>
+                        <h5 class="card-title">${oProd.modelo}</h5>
+                        <p class="card-text">Precio: $${oProd.precio.toLocaleString()}</p>
+                        <p class="card-text">Cantidad: ${oProd.cantidad}</p>
                         <p class="card-text">Subtotal: $${subtotal.toLocaleString()}</p>
                         <button class="btn btn-outline-danger btn-sm" onclick="eliminarProducto(${index})">Eliminar</button>
                     </div>
